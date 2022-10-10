@@ -19,16 +19,16 @@ a) CREATE: It is used to create a new table in the database
    
    syntax to create  a new table:
    -> CREATE TABLE Table_Name(
-      Column_name1 data_type(SIZE),
-      Column_name2 data_type(SIZE),
-      Column_name2 data_type(SIZE),
-      Column_name3 data_type(SIZE)
+      Column_name1 data_type(SIZE) [Column_Constraint],
+      Column_name2 data_type(SIZE) [Column_Constraint],
+      Column_name2 data_type(SIZE) [Column_Constraint],
+      Column_name3 data_type(SIZE) [Column_Constraint]
       );
       ex:
       -> CREATE TABLE student(
          ID int primary key,
-         Name varchar(100),
-         Dept Varchar(20),
+         Name varchar(100) not null,
+         Dept Varchar(20) not null,
          Phone_Number int
          );
 
@@ -40,6 +40,9 @@ c) ALTER: It is used to alter the structure of the database. This change could b
    synatx to add newfield in the table:
    -> ALTER TABLE Table_Name add Column_name [data_type(SIZE)]
        ex:
-       ALTER TABLE add 
+       ALTER TABLE add Address varchar(255) not null;
+
+   synatx to change the particular column name:
+   -> ALTER TABLE Table_Name change COLUMN [OLD_COLUMN_NAME] TO [NEW_COLUMN_NAME] data_type(SIZE) 
 
 d) TRUNCATE: 
