@@ -58,5 +58,9 @@ c) ALTER: It is used to alter the structure of the database. This change could b
       ex:
       ALTER TABLE student change COLUMN Dept Department varchar(100);
   
-   synatx to drop 
+   synatx to drop a column in table:
+   -> ALTER TABLE Table_Name DROP COLUMN COLUMN_name;
+      ex:
+      -> ALTER TABLE student DROP COLUMN Address;
+      
 d) TRUNCATE: 
