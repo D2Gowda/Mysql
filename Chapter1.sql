@@ -16,11 +16,21 @@ a) CREATE: It is used to create a new table in the database
    -> CREATE DATABASE Database_Name;
       ex:
       CREATE DATABASE student;
-      
+   
+   syntax to create  a new table:
+   -> CREATE TABLE Table_Name(
+      Column_name1 data_type(SIZE),
+      Column_name2 data_type(SIZE),
+      Column_name2 data_type(SIZE),
+      Column_name3 data_type(SIZE)
+      );
+      ex:
+
+
 b) DROP: It is used to delete both the structure and record stored in the table
 
 c) ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
    synatx to add newfield in the table:
-   -> ALTER TABLE Table_Name add Column_name [data_type(SIZE of the COLUMN)]
+   -> ALTER TABLE Table_Name add Column_name [data_type(SIZE)]
        ex:
        ALTER TABLE add 
