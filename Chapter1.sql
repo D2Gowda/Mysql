@@ -38,7 +38,7 @@ b) DROP: It is used to delete both the structure and record stored in the table
 
 c) ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
    synatx to add one newfield in the table:
-   -> ALTER TABLE Table_Name add Column_name [data_type(SIZE)]
+   -> ALTER TABLE Table_Name add Column_name [data_type(SIZE)];
        ex:
        ALTER TABLE student add Address varchar(255) not null;
 
@@ -54,6 +54,9 @@ c) ALTER: It is used to alter the structure of the database. This change could b
          add English_marks int not null;
 
    synatx to change the particular column name:
-   -> ALTER TABLE Table_Name change COLUMN [OLD_COLUMN_NAME] TO [NEW_COLUMN_NAME] data_type(SIZE) 
-
+   -> ALTER TABLE Table_Name change COLUMN [OLD_COLUMN_NAME] [NEW_COLUMN_NAME] data_type(SIZE);
+      ex:
+      ALTER TABLE student change COLUMN Dept Department varchar(100);
+  
+   synatx to drop 
 d) TRUNCATE: 
