@@ -37,10 +37,21 @@ a) CREATE: It is used to create a new table in the database
 b) DROP: It is used to delete both the structure and record stored in the table
 
 c) ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
-   synatx to add newfield in the table:
+   synatx to add one newfield in the table:
    -> ALTER TABLE Table_Name add Column_name [data_type(SIZE)]
        ex:
-       ALTER TABLE add Address varchar(255) not null;
+       ALTER TABLE student add Address varchar(255) not null;
+
+   synatx to add multiple new field in the table:
+   -> ALTER TABLE Table_Name
+      add Column_name1 [data_type(SIZE)],
+      add Column_name2 [data_type(SIZE)],
+      add Column_name3 [data_type(SIZE)];
+      ex:
+      -> ALTER TABLE student
+         add Math_marks int not null,
+         add Science_marks int not null,
+         add English_marks int not null;
 
    synatx to change the particular column name:
    -> ALTER TABLE Table_Name change COLUMN [OLD_COLUMN_NAME] TO [NEW_COLUMN_NAME] data_type(SIZE) 
