@@ -92,6 +92,14 @@ Here are some commands that come under DML:
 -> UPDATE
 -> DELETE
 
+a) INSERT: It is used to insert data into a table.
+
+b) SELECT: It is used to select data from a database.
+
+c) UPDATE: It is used to update existing data within a table.
+
+d) DELETE: It is used to delete records from a database table.
+
 AGGREGATE FUNCTION
 -> COUNT(): It returns the number of rows, including rows with NULL values in a group.
 -> SUM(): It returns the total summed values(NON-NULL) in a set.
