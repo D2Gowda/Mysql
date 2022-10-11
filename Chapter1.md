@@ -1,15 +1,15 @@
-There are four different type of SQL Commands
+## There are four different type of SQL Commands
 1) DDL(Data Definition Language)
 2) DML(Data Manipulation Language)
 3) DQL(Data Query Language)
 4) DCL(Data Control Language)
 
-Here are some commands that come under DDL:
--> CREATE
--> DROP
--> ALTER
--> TRUNCATE
--> RENAME
+### Here are some commands that come under DDL:
+* -> CREATE
+* -> DROP
+* -> ALTER
+* -> TRUNCATE
+* -> RENAME
 
 a) CREATE: It is used to create a new table in the database
    syntax to create Database:
