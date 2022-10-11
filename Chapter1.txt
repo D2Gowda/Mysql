@@ -56,6 +56,7 @@ b) DROP: It is used to delete both the structure and record stored in the table
       ex:
       DROP TABLE student;
 
+
 c) ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
    synatx to add one newfield in the table:
    -> ALTER TABLE Table_Name add Column_name [data_type(SIZE)];
@@ -84,3 +85,11 @@ c) ALTER: It is used to alter the structure of the database. This change could b
       -> ALTER TABLE student DROP COLUMN Address;
       
 d) TRUNCATE: 
+
+Here are some commands that come under DML:
+-> INSERT
+-> SELECT
+-> UPDATE
+-> DELETE
+
+AGGREGATE FUNCTION
