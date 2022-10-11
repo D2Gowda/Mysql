@@ -93,3 +93,10 @@ Here are some commands that come under DML:
 -> DELETE
 
 AGGREGATE FUNCTION
+-> COUNT(): It returns the number of rows, including rows with NULL values in a group.
+-> SUM(): It returns the total summed values(NON-NULL) in a set.
+-> AVG(): It returns the average value of an expression.
+-> MIN(): It return the minimun(lowest) value in a set.
+-> MAX(): It return the maximum(highest) value in a set.
+-> FIRST()
+-> LAST()
