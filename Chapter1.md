@@ -11,26 +11,29 @@
 * -> TRUNCATE
 * -> RENAME
 
-a) CREATE: It is used to create a new table in the database
-   syntax to create Database:
-   -> CREATE DATABASE Database_Name;
-      ex:
-      -> CREATE DATABASE github;
+#### a) CREATE: It is used to create a new table in the database
+   syntax to create Database:  
+   -> ```CREATE DATABASE Database_Name;```  
+      ex:  
+      -> ```CREATE DATABASE github;```
    
    syntax to create  a new table:
-   -> CREATE TABLE Table_Name(
+   -> ```
+   CREATE TABLE Table_Name(
       Column_name1 data_type(SIZE) [Column_Constraint],
       Column_name2 data_type(SIZE) [Column_Constraint],
       Column_name2 data_type(SIZE) [Column_Constraint],
       Column_name3 data_type(SIZE) [Column_Constraint]
       );
-      ex:
-      -> CREATE TABLE student(
+      ```  
+      ex:  
+      -> ```
+      CREATE TABLE student(
          ID int primary key,
          Name varchar(100) not null,
          Dept Varchar(20) not null,
          Phone_Number int
-         );
+         );```
 
    syntax
 
