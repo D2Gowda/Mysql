@@ -13,29 +13,37 @@
 
 #### a) CREATE: It is used to create a new table in the database
    syntax to create Database:  
-   -> ```CREATE DATABASE Database_Name;```  
-      ex:  
-      -> ```CREATE DATABASE github;```
+
+```
+CREATE DATABASE Database_Name;
+```  
    
-   syntax to create  a new table:
-   -> ```
+* Example
+      ```
+      CREATE DATABASE github;
+      ```
+   
+syntax to create  a new table:
+
+```
    CREATE TABLE Table_Name(
       Column_name1 data_type(SIZE) [Column_Constraint],
       Column_name2 data_type(SIZE) [Column_Constraint],
       Column_name2 data_type(SIZE) [Column_Constraint],
       Column_name3 data_type(SIZE) [Column_Constraint]
       );
-      ```  
-      ex:  
-      -> ```
+ ```  
+ex:  
+
+```
       CREATE TABLE student(
          ID int primary key,
          Name varchar(100) not null,
          Dept Varchar(20) not null,
          Phone_Number int
-         );```
+         );
+```
 
-   syntax
 
 b) DROP: It is used to delete both the structure and record stored in the table
 
