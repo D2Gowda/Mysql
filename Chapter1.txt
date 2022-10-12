@@ -22,7 +22,7 @@ CREATE DATABASE Database_Name;
       ```
       CREATE DATABASE github;
       ```
-   
+
 syntax to create  a new table:
 
 ```
