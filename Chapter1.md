@@ -47,6 +47,9 @@ ex:
          );
 ```
 
+<p align="center">
+   <img src="user/pg2.png" width=800 height=400>
+</p>
 
 b) DROP: It is used to delete both the structure and record stored in the table
    syntax to drop database:
