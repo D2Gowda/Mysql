@@ -25,7 +25,6 @@ CREATE DATABASE github;
 <p align="center">
    <img src="user/pg1.png" width=800 height=400>
 </p>
-</br>
                                  
 syntax to create  a new table:
 
