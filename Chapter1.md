@@ -12,13 +12,13 @@
 *  RENAME
 
 ### a) CREATE: It is used to create a new table in the database
-syntax to create Database:  
+**syntax** to create Database:  
 
 ```
 CREATE DATABASE Database_Name;
 ```  
    
-Example
+**Example**
 ```
 CREATE DATABASE github;
 ```
@@ -52,7 +52,7 @@ ex:
 </p>
 
 b) DROP: It is used to delete both the structure and record stored in the table
-   syntax to drop database:
+   **syntax** to drop database:
    -> DROP DATABASE Database_Name;
       ex:
       DROP DATABASE github;
