@@ -68,10 +68,17 @@ DROP DATABASE github;
    <img src="user/pg3.png" width=800 height=400>
 </p>
 
-   -> syntax to drop table:
-      DROP TABLE Table_Name;
-      ex:
-      DROP TABLE student;
+* syntax to drop table:
+      
+```
+DROP TABLE Table_Name;
+```
+
+Example:
+
+```
+DROP TABLE student;
+```
 
 <p align="center">
    <img src="user/pg4.png" width=800 height=400>
@@ -79,28 +86,42 @@ DROP DATABASE github;
 
 
 ### c) ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
-   synatx to add one newfield in the table:
-   -> ALTER TABLE Table_Name add Column_name [data_type(SIZE)];
-       ex:
-       ALTER TABLE student add Address varchar(255) not null;
+* synatx to add one newfield in the table:
 
-   synatx to add multiple new field in the table:
-   -> ALTER TABLE Table_Name
-      add Column_name1 [data_type(SIZE)],
-      add Column_name2 [data_type(SIZE)],
-      add Column_name3 [data_type(SIZE)];
-      ex:
-      -> ALTER TABLE student
-         add Math_marks int not null,
-         add Science_marks int not null,
-         add English_marks int not null;
+```
+ALTER TABLE Table_Name add Column_name [data_type(SIZE)];
+```
 
-   synatx to change the particular column name:
+Example:
+
+```
+ALTER TABLE student add Address varchar(255) not null;
+```
+
+* synatx to add multiple new field in the table:
+
+```
+ALTER TABLE Table_Name
+add Column_name1 [data_type(SIZE)],
+add Column_name2 [data_type(SIZE)],
+add Column_name3 [data_type(SIZE)];
+```
+
+Example:
+
+```
+ALTER TABLE student
+add Math_marks int not null,
+add Science_marks int not null,
+add English_marks int not null;
+```
+
+* synatx to change the particular column name:
    -> ALTER TABLE Table_Name change COLUMN [OLD_COLUMN_NAME] [NEW_COLUMN_NAME] data_type(SIZE);
       ex:
       ALTER TABLE student change COLUMN Dept Department varchar(100);
   
-   synatx to drop a column in table:
+* synatx to drop a column in table:
    -> ALTER TABLE Table_Name DROP COLUMN COLUMN_name;
       ex:
       -> ALTER TABLE student DROP COLUMN Address;
