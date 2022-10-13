@@ -18,7 +18,7 @@
 CREATE DATABASE Database_Name;
 ```  
    
-Example
+Example:
 ```
 CREATE DATABASE github;
 ```
@@ -36,7 +36,7 @@ CREATE DATABASE github;
       Column_name3 data_type(SIZE) [Column_Constraint]
       );
 ```  
-ex:  
+Example:
 
 ```
       CREATE TABLE student(
@@ -52,10 +52,17 @@ ex:
 </p>
 
 ### b) DROP: It is used to delete both the structure and record stored in the table
-   **syntax** to drop database:
-   -> DROP DATABASE Database_Name;
-      ex:
-      DROP DATABASE github;
+* syntax to drop database:
+
+```
+DROP DATABASE Database_Name;
+```
+
+Example:
+
+```
+DROP DATABASE github;
+```
 
 <p align="center">
    <img src="user/pg3.png" width=800 height=400>
