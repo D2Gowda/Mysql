@@ -20,7 +20,7 @@ CREATE DATABASE Database_Name;
    
 * Example
 ```
-      CREATE DATABASE github;
+CREATE DATABASE github;
 ```
 ![](user/pg1.png)
 
