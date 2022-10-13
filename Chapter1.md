@@ -19,9 +19,9 @@ CREATE DATABASE Database_Name;
 ```  
    
 * Example
-      ```
+```
       CREATE DATABASE github;
-      ```
+```
       ![](user/pg1.png)
 
 syntax to create  a new table:
