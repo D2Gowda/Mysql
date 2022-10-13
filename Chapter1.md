@@ -12,13 +12,13 @@
 *  RENAME
 
 ### a) CREATE: It is used to create a new table in the database
-**syntax** to create Database:  
+* syntax to create Database:  
 
 ```
 CREATE DATABASE Database_Name;
 ```  
    
-**Example**
+Example
 ```
 CREATE DATABASE github;
 ```
@@ -26,7 +26,7 @@ CREATE DATABASE github;
    <img src="user/pg1.png" width=800 height=400>
 </p>
                                  
-syntax to create  a new table:
+* syntax to create  a new table:
 
 ```
    CREATE TABLE Table_Name(
@@ -51,7 +51,7 @@ ex:
    <img src="user/pg2.png" width=800 height=400>
 </p>
 
-b) DROP: It is used to delete both the structure and record stored in the table
+### b) DROP: It is used to delete both the structure and record stored in the table
    **syntax** to drop database:
    -> DROP DATABASE Database_Name;
       ex:
@@ -71,7 +71,7 @@ b) DROP: It is used to delete both the structure and record stored in the table
 </p>
 
 
-c) ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
+### c) ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
    synatx to add one newfield in the table:
    -> ALTER TABLE Table_Name add Column_name [data_type(SIZE)];
        ex:
@@ -98,7 +98,7 @@ c) ALTER: It is used to alter the structure of the database. This change could b
       ex:
       -> ALTER TABLE student DROP COLUMN Address;
       
-d) TRUNCATE: 
+### d) TRUNCATE: 
 
 Here are some commands that come under DML:
 -> INSERT
@@ -109,6 +109,15 @@ Here are some commands that come under DML:
 a) INSERT: It is used to insert data into a table.
 
 b) SELECT: It is used to select data from a database.
+   synatx to display the table values:
+   -> SELECT * FROM Table_Name;
+      Example:
+      -> SELECT * FROm student;
+
+   synatx to diaplay only particular column values:
+   -> SELECT * Column_Name1, Column_Name2,_ _ _ _[Column_Name N] FROM Table_Name;
+      Example:
+      -> SELECT * FROM
 
 c) UPDATE: It is used to update existing data within a table.
 
