@@ -57,10 +57,18 @@ b) DROP: It is used to delete both the structure and record stored in the table
       ex:
       DROP DATABASE github;
 
+<p align="center">
+   <img src="user/pg3.png" width=800 height=400>
+</p>
+
    -> syntax to drop table:
       DROP TABLE Table_Name;
       ex:
       DROP TABLE student;
+
+<p align="center">
+   <img src="user/pg4.png" width=800 height=400>
+</p>
 
 
 c) ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
