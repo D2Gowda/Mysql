@@ -22,7 +22,7 @@ CREATE DATABASE Database_Name;
 ```
 CREATE DATABASE github;
 ```
-<img src="user/pg1.png" >
+<img src="user/pg1.png" width=100 height=100>
 ![](user/pg1.png)
 
 syntax to create  a new table:
