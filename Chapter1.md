@@ -1,31 +1,32 @@
-## There are four different type of SQL Commands
+# There are four different type of SQL Commands
 1) DDL(Data Definition Language)
 2) DML(Data Manipulation Language)
 3) DQL(Data Query Language)
 4) DCL(Data Control Language)
 
-### Here are some commands that come under DDL:
-* -> CREATE
-* -> DROP
-* -> ALTER
-* -> TRUNCATE
-* -> RENAME
+# Here are some commands that come under DDL:
+*  CREATE
+*  DROP
+*  ALTER
+*  TRUNCATE
+*  RENAME
 
-#### a) CREATE: It is used to create a new table in the database
-   syntax to create Database:  
+### a) CREATE: It is used to create a new table in the database
+syntax to create Database:  
 
 ```
 CREATE DATABASE Database_Name;
 ```  
    
-* Example
+Example
 ```
 CREATE DATABASE github;
 ```
-
-<img src="user/pg1.png" width=500 height=500>
-![](user/pg1.png)
-
+<p align="center">
+   <img src="user/pg1.png" width=800 height=400>
+</p>
+</br>
+                                 
 syntax to create  a new table:
 
 ```
@@ -35,7 +36,7 @@ syntax to create  a new table:
       Column_name2 data_type(SIZE) [Column_Constraint],
       Column_name3 data_type(SIZE) [Column_Constraint]
       );
- ```  
+```  
 ex:  
 
 ```
