@@ -156,3 +156,11 @@ AGGREGATE FUNCTION
 -> MAX(): It return the maximum(highest) value in a set.
 -> FIRST()
 -> LAST()
+
+CONSTRAINTS IN MYSQL:
+NOT NULL:
+UNIQUE:
+PRIMARY KEY:
+FOREIGN KEY:
+DEFAULT:
+CHECK:

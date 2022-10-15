@@ -106,7 +106,29 @@ INSERT INTO orders VALUES
 
 #### step7: The order table should contain the products that are already in product table.
 
-   update
+```
+UPDATE orders SET product_id=111
+where order_id=11;
+```
+
+```
+mysql> UPDATE orders SET product_id=122
+where order_id=22;
+```
+
+```
+UPDATE orders SET product_id=133
+where order_id=33;
+```
+
+```
+UPDATE orders SET product_id=144
+where order_id=44;
+```
+
+<p align="center">
+   <img src="user/Ex1/ex9.png" width=800 height=400>
+</p>
 
 
 8) Display the records in table.
