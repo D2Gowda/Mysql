@@ -133,7 +133,18 @@ where order_id=44;
 
 8) Display the records in table.
 
-   select * from product;
+```
+select * from product;
+```
+<p align="center">
+   <img src="user/Ex1/ex10.png" width=800 height=400>
+</p>
 
-   select * from orders;
+
+```   
+select * from orders;
+```
+<p align="center">
+   <img src="user/Ex1/ex11.png" width=800 height=400>
+</p>
 
