@@ -79,27 +79,30 @@ RENAME COLUMN date_of_manufacture to DOM;
    <img src="user/Ex1/ex6.png" width=800 height=400>
 </p>
 
-#### 6) Insert atleast 4 records in each table.
+#### step6: Insert atleast 4 records in each table.
 
 ```
 INSERT INTO product VALUES
-(),
-(),
-(),
-();
+(111,'AAA','2022-10-10','2022-11-10','MM',10),
+(122,'BBB','2022-10-11','2022-11-11','XX',15),
+(133,'CCC','2022-10-15','2022-11-20','YY',10),
+(144,'DDD','2022-10-19','2022-12-10','MM',20);
 ```
 <p align="center">
    <img src="user/Ex1/ex7.png" width=800 height=400>
 </p>
 ```
 INSERT INTO orders VALUES
-(),
-(),
-(),
-(),
+(11,121,10,10,'2022-12-21'),
+(22,131,5,15,'2022-12-22'),
+(33,141,8,10,'2022-12-23'),
+(44,151,36,20,'2022-12-25');
 ```
+<p align="center">
+   <img src="user/Ex1/ex8.png" width=800 height=400>
+</p>
 
-7) The order table should contain the products that are already in product table.
+#### step7: The order table should contain the products that are already in product table.
 
    update
 
