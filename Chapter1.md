@@ -46,7 +46,6 @@ Example:
          Phone_Number int
          );
 ```
-
 <p align="center">
    <img src="user/pg2.png" width=800 height=400>
 </p>
@@ -63,7 +62,6 @@ Example:
 ```
 DROP DATABASE github;
 ```
-
 <p align="center">
    <img src="user/pg3.png" width=800 height=400>
 </p>
@@ -79,7 +77,6 @@ Example:
 ```
 DROP TABLE student;
 ```
-
 <p align="center">
    <img src="user/pg4.png" width=800 height=400>
 </p>

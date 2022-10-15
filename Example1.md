@@ -1,4 +1,4 @@
-/* 1) create table product with fields(product id, product name, date of manufacture, expiry date, marketed by, unit price). Make product_id as primary key.
+   1) create table product with fields(product id, product name, date of manufacture, expiry date, marketed by, unit price). Make  product_id as primary key.
    2) create table order with fields(order id, product id, quantity, price). Make order id as primary key and quantity should be more than 0.
    3) Display the structure of fields.
    4) Add a field delivery date in order table.
@@ -11,22 +11,25 @@
    11) update the unit price of all products by 15%.
    12) Find the total price of all orders.
    13) Find the average of all orders.
-*/
 
-SOLUTION
+# SOLUTION
 
 
-1) create table product with fields(product id, product name, date of manufacture, expiry date, marketed by, unit price). Make product_id as primary key.
+**1)** create table product with fields(product id, product name, date of manufacture, expiry date, marketed by, unit price). Make product_id as primary key.
 
-   CREATE TABLE product(
-      product_id int primary key,
-      product_name varchar(255) NOT NULL,
-      date_of_manufacture date NOT NULL,
-      expiry_date date NOT NULL,
-      marketed_by varchar(255) NOT NULL,
-      unit_price int NOT NULL
-   );
-
+```
+CREATE TABLE product(
+   product_id int primary key,
+   product_name varchar(255) NOT NULL,
+   date_of_manufacture date NOT NULL,
+   expiry_date date NOT NULL,
+   marketed_by varchar(255) NOT NULL,
+   unit_price int NOT NULL
+);
+```
+<p align="center">
+   <img src="user/ex1.png" width=800 height=400>
+</p>
 
 2) create table order with fields(order id, product id, quantity, price). Make order id as primary key and quantity should be more than 0.
 
