@@ -131,7 +131,7 @@ where order_id=44;
 </p>
 
 
-8) Display the records in table.
+#### step8: Display the records in table.
 
 ```
 select * from product;
@@ -148,3 +148,15 @@ select * from orders;
    <img src="user/Ex1/ex11.png" width=800 height=400>
 </p>
 
+#### step9: Display the marketed by names with duplicates.
+#### step10: Modify the price field that the amount should not be zero.
+#### step11: update the unit price of all products by 15%.
+#### step12: Find the total price of all orders.
+```
+select sum(price) from orders;
+```
+
+#### step13: Find the average of all orders.
+```
+select avg(price) from orders;
+```
