@@ -28,18 +28,22 @@ CREATE TABLE product(
 );
 ```
 <p align="center">
-   <img src="user/ex1.png" width=800 height=400>
+   <img src="user/Ex1/ex1.png" width=800 height=400>
 </p>
 
-2) create table order with fields(order id, product id, quantity, price). Make order id as primary key and quantity should be more than 0.
+#### 2) create table order with fields(order id, product id, quantity, price). Make order id as primary key and quantity should be more than 0.
 
-   CREATE TABLE orders(
-      order_id int primary key,
-      product_id int NOT NULL,
-      quantity int NOT NULL,
-      price int NOT NULL
-   );
-
+```
+CREATE TABLE orders(
+   order_id int primary key,
+   product_id int NOT NULL,
+   quantity int NOT NULL,
+   price int NOT NULL
+);
+```
+<p align="center">
+   <img src="user/Ex1/ex2.png" width=800 height=400>
+</p>
 
 3) Display the structure of fields.
 
