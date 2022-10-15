@@ -15,7 +15,7 @@
 # SOLUTION
 
 
-### 1) create table product with fields(product id, product name, date of manufacture, expiry date, marketed by, unit price). Make product_id as primary key.
+#### 1) create table product with fields(product id, product name, date of manufacture, expiry date, marketed by, unit price). Make product_id as primary key.
 
 ```
 CREATE TABLE product(
