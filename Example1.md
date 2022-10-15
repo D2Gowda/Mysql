@@ -92,6 +92,7 @@ INSERT INTO product VALUES
 <p align="center">
    <img src="user/Ex1/ex7.png" width=800 height=400>
 </p>
+
 ```
 INSERT INTO orders VALUES
 (11,121,10,10,'2022-12-21'),
