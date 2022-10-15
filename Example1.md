@@ -79,7 +79,7 @@ RENAME COLUMN date_of_manufacture to DOM;
    <img src="user/Ex1/ex6.png" width=800 height=400>
 </p>
 
-6) Insert atleast 4 records in each table.
+#### 6) Insert atleast 4 records in each table.
 
 ```
 INSERT INTO product VALUES
